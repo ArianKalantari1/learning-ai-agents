@@ -1,0 +1,332 @@
+[
+  {
+    "role": "user",
+    "content": "what about 923kg in pounds then devided by 100?"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "citations": null,
+        "text": "I'll help you with that! First, let me convert 923kg to pounds, and then divide the result by 100.",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01VaF2RXbNv7p5tvSr7LFYhZ",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "value": 923,
+          "from_unit": "kg",
+          "to_unit": "pounds"
+        },
+        "name": "unit_convertor",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01VaF2RXbNv7p5tvSr7LFYhZ",
+        "content": "923 kg = 2034.8643 pounds"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "citations": null,
+        "text": "Now let me divide that by 100:",
+        "type": "text"
+      },
+      {
+        "id": "toolu_015UViQJzT2DaymRCLwiZ56Z",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "expression": "2034.8643 / 100"
+        },
+        "name": "calculator",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_015UViQJzT2DaymRCLwiZ56Z",
+        "content": "20.348643"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "Here's the result:\n- **923 kg** = **2,034.86 pounds**\n- Divided by 100 = **20.35 pounds** (rounded to 2 decimal places)"
+  },
+  {
+    "role": "user",
+    "content": "oh with the past result, can you multiply the result with 3.6?"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "id": "toolu_01QUfnTD6GDQ8Dg5DbRa56B6",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "expression": "20.348643 * 3.6"
+        },
+        "name": "calculator",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01QUfnTD6GDQ8Dg5DbRa56B6",
+        "content": "73.2551148"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "The result is **73.26** (rounded to 2 decimal places).\n\nSo: 20.348643 \u00d7 3.6 = **73.2551148**"
+  },
+  {
+    "role": "user",
+    "content": "what is 100 miles in km, then multiply that by 32?"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "id": "toolu_01Xbuq4NspM5LARtraq1nssw",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "value": 100,
+          "from_unit": "miles",
+          "to_unit": "km"
+        },
+        "name": "unit_convertor",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01Xbuq4NspM5LARtraq1nssw",
+        "content": "100 miles = 160.934 km"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "citations": null,
+        "text": "Now let me multiply that by 32:",
+        "type": "text"
+      },
+      {
+        "id": "toolu_011DFXj42svTtcUoXG395fCL",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "expression": "160.934 * 32"
+        },
+        "name": "calculator",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_011DFXj42svTtcUoXG395fCL",
+        "content": "5149.888"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "Here's the result:\n- **100 miles** = **160.934 km**\n- Multiplied by 32 = **5,149.89 km** (rounded to 2 decimal places)"
+  },
+  {
+    "role": "user",
+    "content": "what is 100 miles in km, and then multiply that result by 32?"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "id": "toolu_01UTSWro5wyspP5HnmUCUPm6",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "value": 100,
+          "from_unit": "miles",
+          "to_unit": "km"
+        },
+        "name": "unit_convertor",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01UTSWro5wyspP5HnmUCUPm6",
+        "content": "100 miles = 160.934 km"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "citations": null,
+        "text": "Now let me multiply that by 32:",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01716DVKTm85JqRiwojx7EvY",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "expression": "160.934 * 32"
+        },
+        "name": "calculator",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01716DVKTm85JqRiwojx7EvY",
+        "content": "5149.888"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "Here's the result:\n- **100 miles** = **160.934 km**\n- Multiplied by 32 = **5,149.89 km** (rounded to 2 decimal places)"
+  },
+  {
+    "role": "user",
+    "content": "What is 100 miles converted to km divided by 100 pounds in kg?"
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "id": "toolu_01Q1kENx3WJGHQMj6F8F5auv",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "value": 100,
+          "from_unit": "miles",
+          "to_unit": "km"
+        },
+        "name": "unit_convertor",
+        "type": "tool_use"
+      },
+      {
+        "id": "toolu_01U5uR4Y8m8WWezVKoM5WmyD",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "value": 100,
+          "from_unit": "pounds",
+          "to_unit": "kg"
+        },
+        "name": "unit_convertor",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01Q1kENx3WJGHQMj6F8F5auv",
+        "content": "100 miles = 160.934 km"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01U5uR4Y8m8WWezVKoM5WmyD",
+        "content": "100 pounds = 45.3593 kg"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": [
+      {
+        "citations": null,
+        "text": "Now let me divide the km result by the kg result:",
+        "type": "text"
+      },
+      {
+        "id": "toolu_01ALALtzZk8ypFZj5W8SdWaa",
+        "caller": {
+          "type": "direct"
+        },
+        "input": {
+          "expression": "160.934 / 45.3593"
+        },
+        "name": "calculator",
+        "type": "tool_use"
+      }
+    ]
+  },
+  {
+    "role": "user",
+    "content": [
+      {
+        "type": "tool_result",
+        "tool_use_id": "toolu_01ALALtzZk8ypFZj5W8SdWaa",
+        "content": "3.547982442409826"
+      }
+    ]
+  },
+  {
+    "role": "assistant",
+    "content": "Here's the result:\n- **100 miles** = **160.934 km**\n- **100 pounds** = **45.36 kg**\n- **160.934 \u00f7 45.36** = **3.55** (rounded to 2 decimal places)"
+  }
+]
