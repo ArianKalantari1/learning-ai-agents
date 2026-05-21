@@ -16,16 +16,16 @@ A level is not complete until the build works *and* you can answer the six quest
 
 | # | Level | XP | Status |
 |---|-------|----|--------|
-| 1 | [Foundation](curriculum/level-01-foundation/) — Tool calling, agent loop | 100 | In Progress |
-| 2 | [Making it Real](curriculum/level-02-making-it-real/) — Chat loop, Streamlit UI | 150 | Locked |
-| 3 | [Reasoning Patterns](curriculum/level-03-reasoning-patterns/) — ReAct, chain of thought | 200 | Locked |
-| 4 | [Agent Architecture](curriculum/level-04-agent-architecture/) — Orchestration, subagents | 250 | Locked |
-| 5 | [Memory and State](curriculum/level-05-memory-and-state/) — RAG, vector stores | 300 | Locked |
-| 6 | [MCP and Tool Ecosystems](curriculum/level-06-mcp-and-tools/) — Model Context Protocol | 300 | Locked |
-| 7 | [Multi-Agent Systems](curriculum/level-07-multi-agent-systems/) — asyncio, parallel | 400 | Locked |
-| 8 | [Evaluation](curriculum/level-08-evaluation/) — Evals, observability | 350 | Locked |
-| 9 | [Production Agents](curriculum/level-09-production/) — Streaming, caching, FastAPI | 400 | Locked |
-| 10 | [Advanced Patterns](curriculum/level-10-advanced-patterns/) — Safety, HITL | 500 | Locked |
+| 1 | [Foundation](curriculum/levels/level-01-foundation/) — Tool calling, agent loop | 100 | In Progress |
+| 2 | [Making it Real](curriculum/levels/level-02-making-it-real/) — Chat loop, Streamlit UI | 150 | Locked |
+| 3 | [Reasoning Patterns](curriculum/levels/level-03-reasoning-patterns/) — ReAct, chain of thought | 200 | Locked |
+| 4 | [Agent Architecture](curriculum/levels/level-04-agent-architecture/) — Orchestration, subagents | 250 | Locked |
+| 5 | [Memory and State](curriculum/levels/level-05-memory-and-state/) — RAG, vector stores | 300 | Locked |
+| 6 | [MCP and Tool Ecosystems](curriculum/levels/level-06-mcp-and-tools/) — Model Context Protocol | 300 | Locked |
+| 7 | [Multi-Agent Systems](curriculum/levels/level-07-multi-agent-systems/) — asyncio, parallel | 400 | Locked |
+| 8 | [Evaluation](curriculum/levels/level-08-evaluation/) — Evals, observability | 350 | Locked |
+| 9 | [Production Agents](curriculum/levels/level-09-production/) — Streaming, caching, FastAPI | 400 | Locked |
+| 10 | [Advanced Patterns](curriculum/levels/level-10-advanced-patterns/) — Safety, HITL | 500 | Locked |
 
 **Capstone Projects — 0 / 9,250 XP**
 
@@ -99,8 +99,8 @@ No achievements unlocked yet. See [ACHIEVEMENTS.md](ACHIEVEMENTS.md) for the ful
 
 ## Research Library
 
-- [AI Agent Research Landscape](research/ai-agent-research-landscape.md) — What's solved, what's in progress, what's unsolved
-- [Deep Technical Edition](research/ai-agent-deep-technical.md) — Transformers, reasoning, tool use, memory, multi-agent, safety
+- [AI Agent Research Landscape](curriculum/ai-agent-research-landscape.md) — What's solved, what's in progress, what's unsolved
+- [Deep Technical Edition](curriculum/ai-agent-deep-technical.md) — Transformers, reasoning, tool use, memory, multi-agent, safety
 
 ---
 

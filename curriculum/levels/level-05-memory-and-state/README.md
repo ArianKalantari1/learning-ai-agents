@@ -30,8 +30,8 @@ A personal assistant agent with memory. It remembers things the user tells it ac
 ## Study Material
 
 No uploaded study material for this level yet. Read the research docs first:
-- [AI Agent Research Landscape — Part 2: Memory and RAG Advances](../../research/ai-agent-research-landscape.md#part-2--memory-and-rag-advances)
-- [Deep Technical Edition — Concept 4: Memory and RAG](../../research/ai-agent-deep-technical.md#concept-4--memory-and-retrieval-augmented-generation)
+- [AI Agent Research Landscape — Part 2: Memory and RAG Advances](../../ai-agent-research-landscape.md#part-2--memory-and-rag-advances)
+- [Deep Technical Edition — Concept 4: Memory and RAG](../../ai-agent-deep-technical.md#concept-4--memory-and-retrieval-augmented-generation)
 
 ---
 
